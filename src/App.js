@@ -1,22 +1,22 @@
 import React from 'react'
 
-import 'bootstrap/scss/bootstrap.scss'
+import 'react-dynamic-swiper/lib/styles.css'
 
 import Header from './components/Header.component'
 import Footer from './components/Footer.component'
 
-import CaseStudySection from './components/sections/CaseStudy.component'
-import TestimonialSection from './components/sections/Testimonial.component'
 import StatsSection from './components/sections/Stats.component'
 import ContactBannerSection from './components/sections/ContactBanner.component'
+import AboutSection from './components/sections/About.component'
+import ProjectsSection from './components/sections/Projects.component'
 
-import './App.css'
+import './App.scss'
 
 const App = () => (
   <div className="App">
     <Header />
-    <CaseStudySection />
-    <TestimonialSection />
+    <AboutSection />
+    <ProjectsSection />
 
     <StatsSection />
     <ContactBannerSection />
