@@ -5,6 +5,7 @@
 @import '~bootstrap/scss/_variables.scss';
 @import '~bootstrap/scss/_mixins.scss';
 @import '~bootstrap/scss/_buttons.scss';
+@import '~bootstrap/scss/utilities/_text.scss';
 @import '~bootstrap/scss/bootstrap-grid.scss';
 
 * {
@@ -185,7 +186,6 @@ h1.heading.pink:after {
   padding: 3.5em 2em;
   border-radius: 5px;
   border: 1px solid #eee;
-  text-align: center;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -280,15 +280,11 @@ h1.heading.pink:after {
 .stats {
   margin: 4em 0;
 }
-.stat-box {
-  padding: 4em;
-  margin-top: 4em;
-  margin-bottom: 4em;
-}
 .stat-box h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 5.6em;
+  margin: 0.5em 0;
 }
 .stat-box h3 {
   font-family: 'Montserrat', sans-serif;
@@ -540,7 +536,6 @@ ul.main-nav.show-it {
   }
   .client-box {
     padding: 1em;
-    text-align: center;
   }
   .stat-box {
     padding: 1em;

@@ -1,7 +1,5 @@
 import React from 'react'
 
-import behance from 'assets/behance.png'
-import twitter from 'assets/twitter.png'
 import github from 'assets/github.png'
 
 export default () => (
@@ -11,16 +9,27 @@ export default () => (
         <div className="col-md-12 text-center">
           <h1>Andrii<br/><span>Kicha</span></h1>
           <ul className="social-links">
-            <li><a href="#"><img src={behance} /></a></li>
-            <li><a href="#"><img src={twitter} /></a></li>
-            <li><a href="#"><img src={github} /></a></li>
+            <li>
+              <a target="_blank" href="https://github.com/Acousticdesk">
+                <img src={github} />
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.facebook.com/andr.kicha">
+                <i className="fab fa-facebook-f icon--header" />
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/akicha/">
+                <i className="fab fa-linkedin-in icon--header" />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
       <div className="row sub-footer">
         <div className="col-md-12 text-center">
-          <p>Designed by <a href="#" target="_blank">@realvjy</a> | Download <a
-            href="http://designerdada.com/free-bootstrap-one-page-portfolio-template/">here</a></p>
+          Have a nice day ❤️!
         </div>
       </div>
     </div>

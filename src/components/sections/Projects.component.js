@@ -14,20 +14,20 @@ export default () => (
       <Slide>
         <div className="client-box">
           <img src={reactLogo} className="client-logo" />
-          <h3 className="text-left title">GTA San Andreas cheat codes with a search feature</h3>
-          <p className="text-left tag">React, Bulma</p>
-          <p className="text-left">
-            <a target="_blank" href="https://acousticdesk.github.io/gta-cheats/">Try it &#8594;</a>
+          <h3 className="text-center title">GTA San Andreas cheat codes with a search feature</h3>
+          <p className="text-center tag">React, Bulma</p>
+          <p className="text-center">
+            <a target="_blank" href="https://acousticdesk.github.io/gta-cheats/">Check it &#8594;</a>
           </p>
         </div>
       </Slide>
       <Slide>
         <div className="client-box">
           <img src={reactLogo} className="client-logo" />
-          <h3 className="text-left title">My personal rating for burgers in Kyiv</h3>
-          <p className="text-left tag">React, Victory</p>
-          <p className="text-left">
-            <a target="_blank" href="https://acousticdesk.github.io/kyiv-burgers">Try it&#8594;</a>
+          <h3 className="text-center title">My personal rating for burgers in Kyiv</h3>
+          <p className="text-center tag">React, Victory</p>
+          <p className="text-center">
+            <a target="_blank" href="https://acousticdesk.github.io/kyiv-burgers">Check it&#8594;</a>
           </p>
         </div>
       </Slide>
