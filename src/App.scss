@@ -72,12 +72,19 @@ header.hero {
     height: 100%;
     background-image: linear-gradient(to right, #000, transparent);
     opacity: .4;
+    left: 0;
+    top: 0;
   }
 }
 
 header.hero .hero-text {
   margin-top: 20%;
   margin-bottom: 20%;
+}
+@media screen and (max-width: 768px) {
+  header.hero .hero-text {
+    padding-bottom: 50px;
+  }
 }
 header.hero .row {
   position: relative;
