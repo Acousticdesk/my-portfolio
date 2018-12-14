@@ -7,7 +7,7 @@ import App from './App'
 import messages from './messages'
 
 export default () => {
-  const [ language, toggleLanguage ] = useState('ru')
+  const [ language, toggleLanguage ] = useState('en')
 
   return (
     <IntlProvider

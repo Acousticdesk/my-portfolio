@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae797949-907e-4e66-aaee-07913644d309" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/ru.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/ru.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ru.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/About/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/About/ru.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/ContactBanner/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/ContactBanner/ru.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/Projects/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/Projects/ru.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/Stats/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/Stats/ru.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/language-context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/messages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/About.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/About/About.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/ContactBanner.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/ContactBanner/ContactBanner.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Projects.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Projects/Projects.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Slider.component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Stats.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Stats/Stats.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language-context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/language-context.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,8 +21,8 @@
       <file leaf-file-name="Header.component.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Header/Header.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+            <state relative-caret-position="323">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -57,14 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.container.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.container.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.container.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -84,8 +54,20 @@
       <file leaf-file-name="language-context.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/language-context.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="85">
+              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="consts.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/consts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -112,7 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Maria</find>
       <find>bootstra</find>
       <find>swiper</find>
       <find>button</find>
@@ -142,6 +123,7 @@
       <find>enableHooks</find>
       <find>react</find>
       <find>&quot;react&quot;</find>
+      <find>idea</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/node_modules/bootstrap</dir>
@@ -189,8 +171,10 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.component.js" />
-        <option value="$PROJECT_DIR$/src/language-context.js" />
         <option value="$PROJECT_DIR$/src/App.container.js" />
+        <option value="$PROJECT_DIR$/src/const.js" />
+        <option value="$PROJECT_DIR$/src/language-context.js" />
+        <option value="$PROJECT_DIR$/src/consts.js" />
       </list>
     </option>
   </component>
@@ -210,9 +194,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="714" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="794" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -287,17 +272,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544711482946</updated>
-      <workItem from="1544711484293" duration="17059000" />
+      <workItem from="1544711484293" duration="17615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17059000" />
+    <option name="totallyTimeSpent" value="17615000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -306,7 +292,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info id="npm" order="0" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -612,27 +598,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/language-context.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -681,13 +650,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.container.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/language-context.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
